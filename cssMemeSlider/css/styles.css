@@ -188,8 +188,8 @@ span {
 }
 
 .slider__button-item {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 input[id="excited"]:checked ~ .slider__pic-carousel > .slider__list {
