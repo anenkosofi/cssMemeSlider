@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <section class="slider">
+      <div class="container">
+        <div class="slider__container">
+          <input id="excited" type="radio" checked>
+          <input id="sad" type="radio">
+          <input id="scared" type="radio">
+          <input id="angry" type="radio">
+          <div class="slider__carousel">
+            <ul class="slider__list">
+              <li class="slider__item">
+                <img src="./assets/excited.jpg" alt="Excited Turning Red Panda">
+                <p>You can be excited</p>
+              </li>
+              <li class="slider__item">
+                <img src="./assets/sad.jpg" alt="Sad Turning Red Panda">
+                <p>You can be sometimes</p>
+              </li>
+              <li class="slider__item">
+                <img src="./assets/scared.jpg" alt="Scared Turning Red Panda">
+                <p>Or you can be scared... and it's okay</p>
+              </li>
+              <li class="slider__item">
+                <input id="angry" type="radio">
+                <img src="./assets/angry.jpg" alt="Angry Turning Red Panda">
+                <p>Be different, be yourself</p>
+              </li>
+            </ul>
+          </div>
+          <ul class="slider__button-list">
+            <li class="slider__button-item">
+              <label for="excited">
+                <span></span>
+              </label>
+            </li>
+            <li class="slider__button-item">
+              <label for="sad">
+                <span></span>
+              </label>
+            </li>
+            <li class="slider__button-item">
+              <label for="scared">
+                <span></span>
+              </label>
+            </li>
+            <li class="slider__button-item">
+              <label for="angry">
+                <span></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
