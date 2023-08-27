@@ -22,23 +22,6 @@ img {
   height: auto;
 }
 
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-button {
-  text-transform: none;
-}
-
-[type="button"],
-button {
-  -webkit-appearance: button;
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -55,11 +38,6 @@ p {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* ___________________________________ */
 
 body {
@@ -67,15 +45,15 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 48px 0;
+  padding: 3rem 0;
   background-color: #212121;
 }
 
 img {
-  max-height: 700px;
+  max-height: 44rem;
   margin: 0 auto;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 1.5rem;
 }
 
 input {
@@ -108,10 +86,10 @@ label:active span {
 
 span {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: tomato;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -122,10 +100,10 @@ span {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 90rem;
   width: 100%;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 .slider__container {
@@ -134,13 +112,13 @@ span {
 
 .slider__pic-carousel {
   width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   overflow: hidden;
 }
 
 .slider__list {
   display: flex;
-  max-width: 1440px;
+  max-width: 90rem;
   transform: translateX(0);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -148,14 +126,14 @@ span {
 .slider__item {
   flex-shrink: 0;
   width: 100%;
-  border-radius: 24px;
+  border-radius: 1.5rem;
 }
 
 .slider__description {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -173,7 +151,7 @@ span {
 
 .slider__heading {
   display: flex;
-  max-width: 400px;
+  max-width: 100%;
   transform: translateX(0);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -183,7 +161,7 @@ span {
   align-items: center;
   flex-shrink: 0;
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #f5f5f5;
@@ -200,7 +178,7 @@ span {
   }
 
   .slider__heading-item {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
@@ -210,8 +188,8 @@ span {
 }
 
 .slider__button-item {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 input[id="excited"]:checked ~ .slider__pic-carousel > .slider__list {
