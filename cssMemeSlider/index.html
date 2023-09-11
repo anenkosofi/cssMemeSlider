@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <section class="slider">
+      <div class="container">
+        <div class="slider__container">
+          <input id="excited" type="radio" name="panda" checked>
+          <input id="sad" type="radio" name="panda">
+          <input id="scared" type="radio" name="panda">
+          <input id="angry" type="radio" name="panda">
+          <div class="slider__pic-carousel">
+            <ul class="slider__list">
+              <li class="slider__item">
+                <img src="./assets/excited.jpg" alt="Excited Turning Red Panda">
+              </li>
+              <li class="slider__item">
+                <img src="./assets/sad.jpg" alt="Sad Turning Red Panda">
+              </li>
+              <li class="slider__item">
+                <img src="./assets/scared.jpg" alt="Scared Turning Red Panda">
+              </li>
+              <li class="slider__item">
+                <img src="./assets/angry.jpg" alt="Angry Turning Red Panda">
+              </li>
+            </ul>
+          </div>
+          <div class="slider__description">
+            <div class="slider__text-carousel">
+              <ul class="slider__heading">
+                <li class="slider__heading-item">
+                  <p>You can be excited</p>
+                </li>
+                <li class="slider__heading-item">
+                  <p>You can be sad sometimes</p>
+                </li>
+                <li class="slider__heading-item">
+                  <p>Or you can be scared... and it's okay</p>
+                </li>
+                <li class="slider__heading-item">
+                  <p>Be different, be yourself</p>
+                </li>
+              </ul>
+            </div>
+            <ul class="slider__button-list">
+              <li class="slider__button-item">
+                <label for="excited">
+                  <span></span>
+                </label>
+              </li>
+              <li class="slider__button-item">
+                <label for="sad">
+                  <span></span>
+                </label>
+              </li>
+              <li class="slider__button-item">
+                <label for="scared">
+                  <span></span>
+                </label>
+              </li>
+              <li class="slider__button-item">
+                <label for="angry">
+                  <span></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
